@@ -35,6 +35,9 @@
         color: goldenrod;
         transition: 0.3s;
       }
+      .navbar-nav {
+        --bs-nav-link-hover-color: #fff;
+      }
       .btn-color {
         color: #fff;
       }
@@ -368,10 +371,16 @@
     <!-- Botón para subir al inicio de la página -->
     <button
       id="subirBtn"
-      class="h1 rounded-pill bg-warning text-white"
-      style="display: none; position: fixed; bottom: 20px; right: 20px"
+      class="rounded-pill bg-warning text-white"
+      style="
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border: none;
+      "
     >
-      <i class="ri-arrow-drop-up-line"></i>
+      <i class="ri-arrow-drop-up-line fs-4"></i>
     </button>
 
     <script
